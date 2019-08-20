@@ -58,5 +58,12 @@ class ArticlesController < ApplicationController
         @article = Article.find(params[:id])
      end
 
+     def require_same_user
+         if current_user != @article.user && !current_user.admin?
+           flash[:danger] = "You must be Logged in to perform that action"
+           redirect_to root_path
+         end
+       end
+
 end
 

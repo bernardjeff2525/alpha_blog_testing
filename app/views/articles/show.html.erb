@@ -24,7 +24,7 @@
   <hr>
   <%= simple_format(@article.description) %>
 
-  <% if logged_in? && current_user == @article.user%>
+  <% if logged_in? && (current_user == @article.user || current_user.admin?) %>
     <div class="article-actions">
       <%= link_to "View all the Articles",articles_path,class: "btn btn-xs btn-primary"%>
 
