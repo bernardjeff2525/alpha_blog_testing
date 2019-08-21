@@ -31,6 +31,9 @@ gem 'will_paginate','3.1.7'
 gem 'bootstrap-will_paginate','1.0.0'
 
 
+gem 'rails-controller-testing'
+gem 'hirb', '~> 0.7.3'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
