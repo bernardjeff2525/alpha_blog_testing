@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e477a9f4-adc5-4fc3-93cb-b8a991382cca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigator.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_navigator.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -33,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="585">
-              <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -42,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -60,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/article.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -69,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -77,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+            <state relative-caret-position="1215">
+              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -145,7 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +205,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,17 +348,17 @@
       <workItem from="1566201619370" duration="10030000" />
       <workItem from="1566212583741" duration="172000" />
       <workItem from="1566264244633" duration="2820000" />
+      <workItem from="1566385601452" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13022000" />
+    <option name="totallyTimeSpent" value="13028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="863" y="29" width="1052" height="937" extended-state="0" />
-    <editor active="true" />
+    <frame x="778" y="23" width="1052" height="937" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18811882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19108911" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -365,7 +371,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289941" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3289941" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289941" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -454,16 +460,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -485,38 +481,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
