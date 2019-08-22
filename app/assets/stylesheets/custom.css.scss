@@ -1,9 +1,7 @@
 $navbar-default-bg: #009900;
 
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
 
 #logo{
   float: left;
@@ -115,4 +113,11 @@ $navbar-default-bg: #009900;
   list-style:none;
   padding-left:0;
 
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
 }
