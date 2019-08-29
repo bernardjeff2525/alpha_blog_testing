@@ -20,7 +20,6 @@ class CategoriesController < ApplicationController
       flash[:success] = "Category was created successfully"
       redirect_to categories_path
     else
-
       render 'new'
     end
   end
@@ -47,10 +46,9 @@ class CategoriesController < ApplicationController
     params.require(:category).permit(:name)
   end
   def require_admin
-    if !logged_in? || (logged_in? && !current_user.admin?)
+    if !user_signed_in? || (user_signed_in? && !current_user.admin?)
       flash[:danger] = "Access Restiction for Admins ONly"
       redirect_to categories_path
-
     end
   end
 end
